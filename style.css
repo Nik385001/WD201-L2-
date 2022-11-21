@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/924/892/large_2x/abstract-minimal-scene-with-geometric-forms-wood-podium-in-white-background-product-presentation-mock-up-show-cosmetic-product-display-podium-stage-pedestal-or-platform-3d-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    margin-top: 12px;
+    border-bottom: 2px solid black;
+    letter-spacing: 4px;
+    color: chocolate
+}
+
+.form-div {
+    width: 40%;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3), 0 0 4px 2px rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    margin: 16px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    opacity: 0.74;
+}
+
+form,
+table {
+    width: 100%;
+}
+
+form input {
+    padding: 6px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    cursor: pointer;
+}
+
+tr {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+button {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+    width: 30%;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+    box-shadow: 2px 4px 8px 8px rgba(0, 0, 0, 0.3), 0 0 6px rgba(0, 0, 0, 0.9);
+}
+
+.entries-div {
+    width: fit-content;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3), 0 0 4px 2px rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    opacity: 0.74;
+}
